@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJ Habibie</title>
+    <style>
+        /* Pengaturan Font yang Berbeda-beda */
+        h1 { font-family: 'Georgia', serif; font-size: 28px; margin-bottom: 5px; }
+        h2 { font-family: 'Arial Black', sans-serif; font-size: 24px; text-align: center; color: #333; }
+        h3 { font-family: 'Trebuchet MS', sans-serif; font-size: 18px; color: #444; border-bottom: 2px solid #5d4037; padding-bottom: 5px; }
+        p { font-family: 'Verdana', sans-serif; font-size: 14px; line-height: 1.6; }
+        li { font-family: 'Tahoma', sans-serif; font-size: 14px; line-height: 1.8; color: #222; }
+
+        /* Pengaturan Warna dan Background */
+        body {
+            background-color: #3e2723; /* Coklat lebih gelap */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: #5d4037; /* Coklat agak gelap */
+            width: 100%;
+            max-width: 900px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Header Layout: Teks Kiri, Gambar Kanan */
+        .header {
+            background-color: #5d4037; /* Sesuai warna container */
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
+        .header-image img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-left: 20px;
+        }
+
+        /* Card / Konten Utama */
+        .card {
+            background-color: #cfa8a8; /* Putih agar mudah dibaca */
+            padding: 30px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        .deskripsi-kebijakan {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        /* Layout Kebijakan Kiri-Kanan */
+        .policy-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .card1, .card2 {
+            flex: 1;
+            background-color: #efe0e0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #5d4037; /* Sesuai warna header */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        
+        .footer p {
+            margin: 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-text">
+                <h1>Prof. Dr. Ing. H. Bacharuddin Jusuf Habibie</h1> 
+                <p>Bapak Demokrasi Indonesia</p>
+            </div>
+            <div class="header-image">
+                <!-- Pastikan file 'bj habibie.png' berada di folder yang sama -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_z8xSVeP8gJPiQl-5zqkq9cDIqd1ChIKNZ2azTaSVZg&s=10" alt="Gambar BJ Habibie">
+            </div>
+        </div>
+
+        <!-- Konten -->
+        <div class="card">
+            <h2>Kebijakan Selama Menjabat</h2>
+            <p class="deskripsi-kebijakan">Berikut adalah beberapa kebijakan yang dibuat saat B.J. Habibie menjabat sebagai presiden:</p>
+            
+            <div class="policy-wrapper">
+                <!-- Kiri: Politik -->
+                <div class="card1">
+                    <h3>Kebijakan Politik</h3>
+                    <ul>
+                        <li>Kebebasan Pers</li>
+                        <li>Pemilu Bebas dan Demokratis</li>
+                        <li>Otonomi Daerah</li>
+                        <li>Kemerdekaan Timor Leste</li>
+                    </ul>
+                </div>
+                
+                <!-- Kanan: Ekonomi -->
+                <div class="card2">
+                    <h3>Kebijakan Ekonomi</h3>
+                    <ul>
+                        <li>Mengesahkan UU No. 5 tahun 1999 tentang Larangan Praktek Monopoli dan Persaingan yang Tidak Sehat</li>
+                        <li>Mengesahkan UU No. 8 tahun 1999 tentang Perlindungan Konsumen</li>
+                        <li>Melikuidasi beberapa bank yang bermasalah</li>
+                        <li>Melakukan restrukturisasi dan rekapitulasi perbankan melalui pembentukan BPPN dan unit Pengelola Aset Negara</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Profil Tokoh Indonesia &copy; 2026</p>
+        </div>
+    </div>
+</body>
+</html>
